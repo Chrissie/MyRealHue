@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A99FBED9948FE5D96040E2F /* Pods_MyRealHue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B49C2BBB953D03E708776663 /* Pods_MyRealHue.framework */; };
+		A424FF4F217DC28700314E8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A424FF4E217DC28700314E8B /* AppDelegate.swift */; };
+		A424FF51217DC28700314E8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A424FF50217DC28700314E8B /* ViewController.swift */; };
+		A424FF54217DC28700314E8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A424FF52217DC28700314E8B /* Main.storyboard */; };
+		A424FF57217DC28700314E8B /* MyRealHue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A424FF55217DC28700314E8B /* MyRealHue.xcdatamodeld */; };
+		A424FF59217DC28900314E8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A424FF58217DC28900314E8B /* Assets.xcassets */; };
+		A424FF5C217DC28900314E8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A424FF5A217DC28900314E8B /* LaunchScreen.storyboard */; };
+		A424FF64217DC45C00314E8B /* LampsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A424FF63217DC45C00314E8B /* LampsTableViewController.swift */; };
+		A424FF66217DC49000314E8B /* Lamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A424FF65217DC49000314E8B /* Lamp.swift */; };
+		A424FF68217DC5F000314E8B /* lampApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A424FF67217DC5F000314E8B /* lampApiManager.swift */; };
+		A424FF6A217DC8DB00314E8B /* ApiDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A424FF69217DC8DB00314E8B /* ApiDelegate.swift */; };
+		A424FF6C217DCC6E00314E8B /* LampTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A424FF6B217DCC6E00314E8B /* LampTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A424FF4B217DC28700314E8B /* MyRealHue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRealHue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A424FF4E217DC28700314E8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A424FF50217DC28700314E8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A424FF53217DC28700314E8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A424FF56217DC28700314E8B /* MyRealHue.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyRealHue.xcdatamodel; sourceTree = "<group>"; };
+		A424FF58217DC28900314E8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A424FF5B217DC28900314E8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A424FF5D217DC28900314E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A424FF63217DC45C00314E8B /* LampsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampsTableViewController.swift; sourceTree = "<group>"; };
+		A424FF65217DC49000314E8B /* Lamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lamp.swift; sourceTree = "<group>"; };
+		A424FF67217DC5F000314E8B /* lampApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lampApiManager.swift; sourceTree = "<group>"; };
+		A424FF69217DC8DB00314E8B /* ApiDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiDelegate.swift; sourceTree = "<group>"; };
+		A424FF6B217DCC6E00314E8B /* LampTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampTableViewCell.swift; sourceTree = "<group>"; };
+		A6CEE0C3D992819ADD8275BD /* Pods-MyRealHue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRealHue.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyRealHue/Pods-MyRealHue.release.xcconfig"; sourceTree = "<group>"; };
+		B49C2BBB953D03E708776663 /* Pods_MyRealHue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRealHue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFFB376B918972D5B895AFF9 /* Pods-MyRealHue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRealHue.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyRealHue/Pods-MyRealHue.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A424FF48217DC28700314E8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A99FBED9948FE5D96040E2F /* Pods_MyRealHue.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D36C3BA72A5626C3CE04F82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFFB376B918972D5B895AFF9 /* Pods-MyRealHue.debug.xcconfig */,
+				A6CEE0C3D992819ADD8275BD /* Pods-MyRealHue.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0DB04A997BF0653A45380181 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B49C2BBB953D03E708776663 /* Pods_MyRealHue.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A424FF42217DC28700314E8B = {
+			isa = PBXGroup;
+			children = (
+				A424FF4D217DC28700314E8B /* MyRealHue */,
+				A424FF4C217DC28700314E8B /* Products */,
+				0D36C3BA72A5626C3CE04F82 /* Pods */,
+				0DB04A997BF0653A45380181 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A424FF4C217DC28700314E8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A424FF4B217DC28700314E8B /* MyRealHue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A424FF4D217DC28700314E8B /* MyRealHue */ = {
+			isa = PBXGroup;
+			children = (
+				A424FF4E217DC28700314E8B /* AppDelegate.swift */,
+				A424FF50217DC28700314E8B /* ViewController.swift */,
+				A424FF52217DC28700314E8B /* Main.storyboard */,
+				A424FF58217DC28900314E8B /* Assets.xcassets */,
+				A424FF5A217DC28900314E8B /* LaunchScreen.storyboard */,
+				A424FF5D217DC28900314E8B /* Info.plist */,
+				A424FF55217DC28700314E8B /* MyRealHue.xcdatamodeld */,
+				A424FF63217DC45C00314E8B /* LampsTableViewController.swift */,
+				A424FF65217DC49000314E8B /* Lamp.swift */,
+				A424FF67217DC5F000314E8B /* lampApiManager.swift */,
+				A424FF69217DC8DB00314E8B /* ApiDelegate.swift */,
+				A424FF6B217DCC6E00314E8B /* LampTableViewCell.swift */,
+			);
+			path = MyRealHue;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A424FF4A217DC28700314E8B /* MyRealHue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A424FF60217DC28900314E8B /* Build configuration list for PBXNativeTarget "MyRealHue" */;
+			buildPhases = (
+				9CC08D9ED606C1DF3B3097CB /* [CP] Check Pods Manifest.lock */,
+				A424FF47217DC28700314E8B /* Sources */,
+				A424FF48217DC28700314E8B /* Frameworks */,
+				A424FF49217DC28700314E8B /* Resources */,
+				3A797EF8292FC72DFCE1A499 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyRealHue;
+			productName = MyRealHue;
+			productReference = A424FF4B217DC28700314E8B /* MyRealHue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A424FF43217DC28700314E8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Christiaan Paans";
+				TargetAttributes = {
+					A424FF4A217DC28700314E8B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A424FF46217DC28700314E8B /* Build configuration list for PBXProject "MyRealHue" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A424FF42217DC28700314E8B;
+			productRefGroup = A424FF4C217DC28700314E8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A424FF4A217DC28700314E8B /* MyRealHue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A424FF49217DC28700314E8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A424FF5C217DC28900314E8B /* LaunchScreen.storyboard in Resources */,
+				A424FF59217DC28900314E8B /* Assets.xcassets in Resources */,
+				A424FF54217DC28700314E8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A797EF8292FC72DFCE1A499 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyRealHue/Pods-MyRealHue-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyRealHue/Pods-MyRealHue-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CC08D9ED606C1DF3B3097CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyRealHue-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A424FF47217DC28700314E8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A424FF68217DC5F000314E8B /* lampApiManager.swift in Sources */,
+				A424FF66217DC49000314E8B /* Lamp.swift in Sources */,
+				A424FF57217DC28700314E8B /* MyRealHue.xcdatamodeld in Sources */,
+				A424FF6A217DC8DB00314E8B /* ApiDelegate.swift in Sources */,
+				A424FF64217DC45C00314E8B /* LampsTableViewController.swift in Sources */,
+				A424FF51217DC28700314E8B /* ViewController.swift in Sources */,
+				A424FF4F217DC28700314E8B /* AppDelegate.swift in Sources */,
+				A424FF6C217DCC6E00314E8B /* LampTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A424FF52217DC28700314E8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A424FF53217DC28700314E8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A424FF5A217DC28900314E8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A424FF5B217DC28900314E8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A424FF5E217DC28900314E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A424FF5F217DC28900314E8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A424FF61217DC28900314E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFFB376B918972D5B895AFF9 /* Pods-MyRealHue.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyRealHue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = christiaanpaans.nl.MyRealHue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A424FF62217DC28900314E8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6CEE0C3D992819ADD8275BD /* Pods-MyRealHue.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyRealHue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = christiaanpaans.nl.MyRealHue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A424FF46217DC28700314E8B /* Build configuration list for PBXProject "MyRealHue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A424FF5E217DC28900314E8B /* Debug */,
+				A424FF5F217DC28900314E8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A424FF60217DC28900314E8B /* Build configuration list for PBXNativeTarget "MyRealHue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A424FF61217DC28900314E8B /* Debug */,
+				A424FF62217DC28900314E8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A424FF55217DC28700314E8B /* MyRealHue.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A424FF56217DC28700314E8B /* MyRealHue.xcdatamodel */,
+			);
+			currentVersion = A424FF56217DC28700314E8B /* MyRealHue.xcdatamodel */;
+			path = MyRealHue.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A424FF43217DC28700314E8B /* Project object */;
+}
